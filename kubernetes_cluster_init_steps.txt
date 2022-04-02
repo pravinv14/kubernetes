@@ -117,7 +117,7 @@ kubeadm token create --print-join-command
 kubeadm tokens list
 
 # example join string given below
-kubeadm join 192.168.1.130:6443 --token qt57zu.wuvqh64un13trr7x --discovery-token-ca-cert-hash sha256:5ad014cad868fdfe9388d5b33796cf40fc1e8c2b3dccaebff0b066a0532e8723
+kubeadm join 192.168.1.130:6443 --token <token_here> --discovery-token-ca-cert-hash <cert-hash-here>
 
 # check kubernetes cluster nodes using below command
 kubectl get nodes
